@@ -2,7 +2,7 @@ import streamlit as st
 import sqlite3
 
 pages = {
-    "카테고리1" : [
+    "환영합니다!" : [
         st.Page("page/a.py", title="회원가입"),
         st.Page("page/b.py", title="로그인")
     ],

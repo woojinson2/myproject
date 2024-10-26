@@ -99,8 +99,8 @@ email = "{email}",
 gender = "{gender}"
 WHERE username = "{id}"
 """
-        cursor.execute(sql)
-        conn.commit()
+    cursor.execute(sql)
+    conn.commit()
 
 elif menu == '회원탈퇴':
     conn = sqlite3.connect('db.db')
