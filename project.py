@@ -1,4 +1,8 @@
 import streamlit as st
+st.set_page_config(
+    page_title= "매천 PC",
+    page_icon="🎮"
+)
 import sqlite3
 
 pages = {
