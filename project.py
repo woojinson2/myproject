@@ -14,7 +14,7 @@ pages = {
         st.Page("page/a.py", title="회원가입"),
         st.Page("page/b.py", title="로그인")
     ],
-    "카테고리2" : [
+    "어서오세요!" : [
         st.Page("page/c.py", title="먹거리주문"),
         st.Page("page/d.py", title="게임")
     ]
